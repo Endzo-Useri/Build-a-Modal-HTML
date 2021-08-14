@@ -25,6 +25,16 @@ body {
      font-size: 18px;
      cursor: pointer;
  }
+ 
+  /** 
+   Modal: #modal
+ 
+   1) Add a temporary background colour of 'orange'
+   2) Add a padding of 20px
+   3) Add a height of 200px
+   4) Add a margin of 0 & auto to make sure our Modal is centered
+   5) Add a max-width of 600px
+ **/
 
  #modal {
      background: orange;
@@ -34,12 +44,8 @@ body {
      height: 200px;
  }
 
- /** 
-  Modal: #modal
+ /* Add 'display: none' to '#overlay' - we want to hide it initially! */
 
-  1) Add a temporary background colour of 'orange'
-  2) Add a padding of 20px
-  3) Add a height of 200px
-  4) Add a margin of 0 & auto to make sure our Modal is centered
-  5) Add a max-width of 600px
-**/
+ #overlay {
+     display: none;
+ }
