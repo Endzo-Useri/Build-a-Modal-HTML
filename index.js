@@ -7,6 +7,10 @@
   3) Use document.getElementById to target "overlay" and change the style.display to "block"
 **/
 
+// document.getElementById("open-modal").addEventListener("click", function() {
+//     document.getElementById("overlay").style.display = "block";
+// })
+
 document.getElementById("open-modal").addEventListener("click", function() {
     document.getElementById("overlay").style.display = "block";
 })
