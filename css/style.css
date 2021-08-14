@@ -42,8 +42,8 @@ body {
      margin: 0 auto;
      padding: 20px;
      height: 200px;
-     /* position: relative;
-     top: 30%; */
+     position: relative;
+     top: 30%;
  }
 
  /* Add 'display: none' to '#overlay' - we want to hide it initially! */
