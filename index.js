@@ -19,3 +19,6 @@ document.getElementById("open-modal").addEventListener("click", function() {
   2) Add an event listener of "click"
   3) Use document.getElementById to target "overlay" and change the style.display to "none"
 **/ 
+document.getElementById("close-modal").addEventListener("click", function() {
+  document.getElementById("overlay").style.display = "none";
+})
