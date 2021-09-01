@@ -25,6 +25,10 @@ body {
   height: 200px;
 }
 
+#overlay {
+  display: none;
+}
+
 /** 
   Modal: #modal
 
