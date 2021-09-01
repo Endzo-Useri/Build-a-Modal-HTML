@@ -27,17 +27,6 @@ body {
   top: 30%;
 }
 
-/** 
-  Overlay: #overlay
-
-  1) Add a width and a height of 100%
-  2) Position absolute (allows us to place any element exactly where we want it)
-  3) Set top, left, bottom, right to 0
-  4) Add a background colour of black
-  5) Add position relative to #modal so that it's relative to #overlay
-  6) Put the background of #modal to white (temp background no longer needed)
-  7) Add top: 30% to #modal
-**/
 #overlay {
   display: none;
   width: 100%;
