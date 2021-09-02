@@ -9,12 +9,27 @@ body {
 
 #open-modal,
 #close-modal {
-  background-color: royalblue;
+  background-color: green;
   color: #fff;
   padding: 8px 20px;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+  border: 3px solid green;
+  border-radius: 50px;
+}
+
+#open-modal:hover,
+#open-modal:focus,
+#close-modal:hover,
+#close-modal:focus {
+  background-color: rgba(0, 128, 0, 0.7);
+}
+
+#open-modal:active,
+#close-modal:active {
+  background-color: rgba(0, 128, 0, 0.3);
+  color: #000;
 }
 
 #modal {
@@ -37,4 +52,11 @@ body {
   bottom: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.inverse-text {
+  background-color:#000;
+  color: #fff;
+  padding: 2px;
+  font-size: 14px;
 }
